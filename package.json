@@ -7,14 +7,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "gsap": "^3.5.1",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.2",
-    "postcss": "8.1.7",
-    "tailwindcss": "^2.0.1"
+    "autoprefixer": "^10.1.0",
+    "next-images": "^1.6.2",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
   },
   "license": "MIT"
 }
