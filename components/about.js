@@ -28,7 +28,7 @@ export default class About extends React.Component {
             "
           />
         </div>
-        <div className="absolute bottom-0 pb-64 sm:pb-8 lg:pb-72 lg:pr-16 lg:flex lg:justify-between">
+        <div className="absolute bottom-0 pb-64 sm:pb-8 lg:pb-72 lg:pr-16 lg:flex lg:justify-between xl:pb-56">
           <TextParagraph
             className="w-3/5 sm:w-1/2 lg:w-1/3 lg:mt-12 xl:w-2/5"
             topic="Why"
@@ -40,7 +40,7 @@ export default class About extends React.Component {
               great coffee.
             " 
           />
-          <div className="hidden sm:block sm:relative sm:w-1/2 sm:mt-10 sm:h-60 lg:mt-10 lg:h-80 xl:mt-0 xl:h-80 xl:w-2/5">
+          <div className="hidden sm:block sm:relative sm:w-1/2 sm:mt-10 sm:h-60 lg:mt-10 lg:h-80 xl:mt-0 xl:h-64 xl:w-96">
             <GaweKopiCookie
               className="rounded-xl"
               src="/gawe-kopi-cookie-line.png"

@@ -5,14 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'coffee-splash': "url('../public/coffee-splash.jpg')",
+        'coffee-splash-mobile': "url('../public/coffee-splash-mobile.jpg')",
       }),
       backgroundSize: {
-        '200%': '200%',
-        '250%': '250%',
-        '300%': '300%',
-        '350%': '350%',
-        '400%': '400%',
-
         '1200': '1200px 1500px',
         '1600': '1600px 2000px',
         '2000': '2000px 2500px',
@@ -24,10 +19,6 @@ module.exports = {
         'left-30%': '30% 5%',
         'left-35%': '35% 5%',
         'left-40%': '40% 5%',
-        'left-100': '-100px 0px',
-        'left-200': '-200px 0px',
-        'left-300': '-300px 0px',
-        'left-400': '-400px 0px',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
@@ -114,15 +105,6 @@ module.exports = {
         '11': '2.75rem',
         '12': '3rem',
         '13': '3.25rem',
-
-        '2vh': '2vh',
-        '3vh': '3vh',
-        '4vh': '4vh',
-        '4.5vh': '4.5vh',
-        '5vh': '5vh',
-        '6vh': '6vh',
-        '7vh': '7vh',
-        '8vh': '8vh'
       }
     },
   },
