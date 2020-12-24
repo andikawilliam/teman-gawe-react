@@ -6,8 +6,8 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 }
 
-import NavMenu from "./nav-menu";
-import NavBurger from "./nav-burger";
+import NavMenu from "../components/nav-menu";
+import NavBurger from "../components/nav-burger";
 
 export default class Nav extends React.Component {
   constructor(props) {
