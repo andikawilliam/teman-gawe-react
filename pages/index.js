@@ -1,8 +1,8 @@
-import Nav from '../sections/nav'
-import Header from '../sections/header'
-import About from '../sections/about'
-import Menu from '../sections/menu'
-import Footer from '../sections/footer'
+import Nav from '../components/nav'
+import Header from './header'
+import About from './about'
+import Menu from './menu'
+import Footer from './footer'
 
 export default function IndexPage() {
   return (

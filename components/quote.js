@@ -1,5 +1,3 @@
-import { loadGetInitialProps } from "next/dist/next-server/lib/utils";
-
 export default function Quote(props) {
   return (
     <div className={ props.className }>
