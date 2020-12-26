@@ -28,7 +28,7 @@ export default class About extends React.Component {
             "
           />
         </div>
-        <div className="absolute bottom-0 pb-64 sm:pb-8 lg:pb-72 lg:pr-16 lg:flex lg:justify-between xl:pb-40vh">
+        <div className="absolute bottom-0 pb-64 sm:pb-8 lg:pb-72 lg:pr-16 lg:flex lg:justify-between xl:pb-35vh">
           <TextParagraph
             className="w-3/5 sm:w-1/2 lg:w-1/3 lg:mt-12 xl:w-2/5 xl:mt-20"
             topic="Why"

@@ -25,6 +25,19 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
         <link rel="manifest" href="/favicon/site.webmanifest" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JB8BK6XRK"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-0JB8BK6XRK');
+            `
+          }}
+        />          
       </Head>
       <Component {...pageProps} />
     </div>
