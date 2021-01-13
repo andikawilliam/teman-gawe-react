@@ -34,6 +34,7 @@ module.exports = {
         '4.5vw': '4.5vw',
         '5vw': '5vw',
         '6vw': '6vw',
+        '6.5vw': '6.5vw',
         '7vw': '7vw',
         '8vw': '8vw',
         '9vw': '9vw',

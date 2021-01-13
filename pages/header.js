@@ -26,10 +26,9 @@ export default class Header extends React.Component {
     return (
       <div id="home" className={ this.props.className }>
         <div
-          className="font-poppins text-left text-black-gawe font-bold text-9vw sm:text-6vw lg:text-4.5vw"
+          className="font-poppins text-left text-black-gawe font-bold text-10vw sm:text-6.5vw lg:text-4.5vw"
         >   
-          Best affordable coffee
-          only at <span className="whitespace-nowrap text-red-800"> TEMAN GAWE</span>
+          Making your coffee <span className="text-red-800">tasty</span> and <span className="text-red-800">affordable</span>
         </div>
         <button
           className="tracking-wider bg-red-800 text-white text-sm font-bold rounded-lg mt-2 h-10 lg:h-12 w-40 sm:mt-4 sm:text-base md:w-56"

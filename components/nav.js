@@ -6,6 +6,8 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 }
 
+import TemanGaweLogo from 'next/image'
+
 import NavMenu from "./nav-menu";
 import NavBurger from "./nav-burger";
 
@@ -115,6 +117,15 @@ export default class Nav extends React.Component {
               <NavMenu name="about" onClick={ this.goToSection }/>
               <NavMenu name="menu" onClick={ this.goToSection }/>
               <NavMenu name="contact" onClick={ this.goToSection }/>
+              <div className="absolute bottom-10 lg:hidden pt-4 lg:pb-0">
+                <TemanGaweLogo
+                  className="top-0 max-w-full "
+                  src="/teman-gawe-logo.png"
+                  layout={"intrinsic"}
+                  width={120}
+                  height={90}
+                />
+              </div>
             </div>
           </div>
         </nav>
