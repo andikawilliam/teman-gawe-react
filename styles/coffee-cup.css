@@ -14,9 +14,9 @@
 .coffee-cup {
   width: 70px;
   height: 150px;
-  border-top: 14px solid #352f2f;
+  border-top: 10px solid #222222;
   box-shadow: 4px 6px 10px rgb(161, 161, 161);
-  border-radius: 12%;
+  border-radius: 10%;
   background: transparent;
   overflow: hidden;
   backface-visibility: hidden;
